@@ -1,0 +1,324 @@
+/*GLOBAL STUFF*/
+
+body {
+	font: 7.5pt/11pt Verdana, sans-serif; 
+	background-color: #05244b;
+	margin: 0px;
+	}
+
+table {
+	font: 7.5pt/11pt Verdana, sans-serif; 
+	margin: 0px;
+	}
+
+
+textarea {
+	font: 9pt/11pt Verdana, sans-serif; 
+	margin: 0px;
+	}
+
+.smaller	{
+	font: 5.5pt/7.5pt Verdana, sans-serif;
+	}
+
+img   { 
+	border : 0; 
+	}
+
+a	{
+	font: bold 7pt/9pt Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #44a9f7;
+	}
+
+a:hover, a:active	{
+	color: #bfe3ff;
+	}
+
+h3	{
+	font: bold 9pt/11pt Verdana, sans-serif;
+	color: #333333;
+	margin-bottom: -1ex;
+    line-height: 2ex;
+	}
+
+h4	{
+	font: bold 8pt/10pt Verdana, sans-serif;
+	color: #333333;
+	margin-bottom: -1ex;
+    line-height: 2ex;
+	}
+
+.grey	{
+	color: #333333;
+	}
+
+.blue	{
+	color: #05244b;
+	}
+
+.white	{
+	color: #ffffff;
+	}
+
+.under	{
+	text-decoration: underline;  
+	}
+
+/*TITLE BAR*/
+
+.title	{
+	font: bold 7pt/9pt Verdana, sans-serif;
+	color: #ffffff;
+	margin-left: 10px;
+	}
+
+.titleCap	{
+	font: bold 8pt/10pt Verdana, sans-serif;
+	}
+
+.topLink	{
+	margin-left: 20px;
+	}
+
+.date	{
+	font: 7.5pt/8pt Verdana, sans-serif;
+	color: #ffffff;
+	margin-left: 20px;
+	}
+
+#top	{
+	background-image: url(menu_top.jpg);
+	}
+
+/*BANNER*/
+
+#bannerMain	{
+	background-image: url(banner.gif);
+	}
+
+#banner	{
+	background-image: url(banner.jpg);
+	}
+
+#tr_footer	{
+	background-image: url(http://www.bostonmpo.org/proto/4_resources/2_transreport/tr_footer.gif);
+	color: #ffffff;
+	}
+
+/*NAVIGATION LEFT*/
+
+#left a	{
+	margin-left: 10px;
+	}
+
+#leftBox	{
+	width: 150px;
+	height: 17px;
+	background-color: #b87e31;
+	padding-top: 3px;
+	margin-bottom: 5px;
+	font: bold 7.5pt/8.5pt Verdana, sans-serif;
+	color: #ffffff;
+	}
+
+#leftBox2	{
+	width: 150px;
+	height: 30px;
+	background-color: #b87e31;
+	padding-top: 3px;
+	margin-bottom: 5px;
+	font: bold 7.5pt/10pt Verdana, sans-serif;
+	color: #ffffff;
+	}
+
+#leftRule	{
+	border-top: 1px dotted #126eb4;
+	margin: 2px 0px 2px 0px;
+	}
+
+#leftBottom	{
+	margin-bottom: 5px;
+	}
+	
+.leftBoxTitle	{
+	margin-left: 5px;
+	}
+
+.activeLeft	{
+	color: #bfe3ff;
+	}
+
+/*NAVIGATION RIGHT*/
+
+#right	{
+	color: #995d16;
+	}
+
+.rightTitle	{
+	font: bold 7.5pt/8.5pt Verdana, sans-serif;
+	color: #ffffff;
+	}
+
+#right a	{
+	color: #995d16;
+	}
+
+#right a:hover, a:active {
+	color: #683901;
+	}
+
+#rightBox	{
+	width: 150px;
+	height: 17px;
+	background-color: #b87e31;
+	padding-top: 3px;
+	margin-bottom: 5px;
+	text-align: center; 
+	}
+
+#rightBoxImg	{
+	width: 150px;
+	height: 17px;
+	background-color: #b87e31;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	text-align: center; 
+	}
+
+#rightBoxSm	{
+	width: 150px;
+	height: 17px;
+	background-color: #b87e31;
+	color: #ffffff;
+	padding-top: 3px;
+	}
+
+#rightBoxMed	{
+	width: 150px;
+	height: 28px;
+	background-color: #b87e31;
+	color: #ffffff;
+	padding-top: 3px;
+	}
+
+#rightBoxTall	{
+	width: 150px;
+	height: 38px;
+	background-color: #b87e31;
+	color: #ffffff;
+	padding-top: 3px;
+	}
+
+#rightRule	{
+	border-top: 1px dotted #b87e31;
+	margin: 2px 0px 2px 0px;
+	}
+
+/*CENTER*/
+
+#center	{
+	color: #05244b;
+	}
+
+#center a:hover, a:active	{
+	color: #0b62a6;
+	}
+
+#centerBox1	{
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	background-color: #b87e31;
+	}
+
+#centerBox2	{
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	margin-top: 125px;
+	background-color: #b87e31;
+	}
+
+#centerBox3	{
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	margin-top: 250px;
+	background-color: #b87e31;
+	}
+
+#centerBox4	{
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	margin-top: 375px;
+	background-color: #b87e31;
+	}
+
+#indexCopy	{
+	position: absolute;
+	width: 230px;
+	margin-left: 235px;
+	line-height: 1.1pc;
+	}
+
+.mainTitle	{
+	font: bold 10pt/12pt Verdana, sans-serif;
+	color: #b87e31;
+	}
+
+.activeCenter	{
+	color: #0b62a6;
+	}
+
+#centerRule	{
+	border-top: 1px dashed #b87e31;
+	margin: 10px 0px 10px 0px;
+	}
+
+/*FOOTER*/
+
+#footer	{
+	color: #ffffff;
+	}
+
+#footer a	{
+	color: #ffd092;
+	}
+
+#footer a:hover, a:active	{
+	color: #935c12;
+	}
+
+.marginRight	{
+	margin-right: 10px;
+	}
+
+.marginLeft	{
+	margin-left: 10px;
+	}
+
+a.dsphead{
+   text-decoration:none;
+   margin-left:1.5em;}
+a.dsphead:hover{
+   text-decoration:underline;}
+a.dsphead span.dspchar{
+   font-family:monospace;
+   font-weight:normal;}
+.dspcont{
+   display:none;
+   margin-left:1.5em;}
+   
+ul.myClass li
+{
+margin-left: -25px;
+}
+
+
+
+
+
+
+
