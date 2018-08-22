@@ -1,0 +1,129 @@
+body {
+	background-color: white;
+	padding: 0px;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+th {
+	display: none;
+}
+td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+SELECT {
+	font-size: 12px;
+}
+INPUT {
+	font-size: 12px;
+}
+a	{
+	text-decoration: underline;
+	color: rgb(51,102,153);
+}
+a:hover, a:active	{
+	color: rgb(191,227,255);
+}
+.blue {
+	color: rgb(51,102,153);
+}
+.blueHilite {
+	color: rgb(191,227,255);
+}
+.queryListGroup {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 10px;
+}
+
+.tabularQueryTableCell {
+	padding-bottom:0px;
+	height: 25px;
+}
+.resultTable {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.resultTableLocCell {
+	width: 80%;
+	padding: 0px 10px 4px 0px;
+}
+.resultTableTownCell {
+	width: 20%;
+	padding: 0px 10px 4px 0px;
+}
+.iWinGTbl {
+	cursor: pointer;
+	margin: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px
+}
+.iWinGCol1 {
+	width: 0.3in;
+	color: gray;
+	text-align: right;
+}
+.iWinGCol2 {
+}
+#visContent {
+	width: 800px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	text-align: left;
+}
+#instructionDiv {
+	margin-bottom: 10px;
+}
+#response {
+	width: 100%; margin-bottom: 0px;
+}
+#getDataGroup {
+	margin-top: 20px;
+}
+#geoQuery {
+	background-color: rgb(51,102,153);
+	width: 100%;
+	page-break-before: avoid;
+}
+#map	 {
+	width: 500px;
+	height: 500px;
+}
+#mapMessage {	
+	background-color: rgb(51,102,153);
+	width: 280px;
+	float: right;
+	color: white;
+	padding: 10px;
+}
+#mapMessageTable {
+	width: 100%;
+}
+#results {
+	margin-top: 1em;
+	width: 100%;
+}
+#tabularQueryDiv {
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	color: white;
+	background-color: rgb(51,102,153);
+	margin: 0px;
+	border-collapse: separate;
+}
+#tabularQueryTbl {
+	width:100%;
+	margin: 0px;
+	color: white;
+	border-collapse:collapse;
+	border-spacing:0px;	
+}
+
